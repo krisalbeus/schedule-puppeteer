@@ -1,0 +1,19 @@
+{
+  "name": "{{{ rds.name }}}",
+  "type": "postgres",
+  "host": "{{ rds.host }}",
+  "port": {{{ rds.port }}},
+  "schema": "{{{ rds.schema }}}",
+  "username": "{{{ rds.username }}}",
+  "password": "{{{ rds.password }}}",
+  "database": "{{{ rds.dbname }}}",
+  "synchronize": false,
+  "logging": true,
+  "entities": [
+    "src/orm/entities/*.ts"
+  ],
+  "migrationsTableName": "{{{ migrationsTableName }}}",
+  "migrations": [
+    "src/orm/migrations/*.ts"
+  ]
+}

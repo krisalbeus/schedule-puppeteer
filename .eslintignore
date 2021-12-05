@@ -1,0 +1,16 @@
+reports/
+node_modules/
+docker/
+features/
+.serverless/
+.idea/
+bundle/
+*.log
+.DS_Store
+*.swp
+tmp
+.webpack
+gulpfile.ts/
+# Eslint doesnt quite get typescript decorators yet!
+src/orm/entities/*.ts
+src/orm/migrations/*.ts

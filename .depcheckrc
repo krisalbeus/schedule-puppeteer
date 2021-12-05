@@ -1,0 +1,6 @@
+# All our usual stuff that tends to me command line or outside of code layers
+ignores:  ['@apidevtools/swagger-cli', '@types/serverless', '@types/mocha','aws-sdk', 'dotenv-with-expand', 'husky','lint-staged','mocha','mochawesome',
+          'modclean', 'nyc','postinstall-postinstall', 'rimraf', 'serverless-dotenv-plugin', 'serverless-offline',
+          'serverless-prune-plugin', 'serverless-plugin-log-retention', 'serverless-pseudo-parameters','serverless-s3-deploy', 'serverless-step-functions',
+          'ts-loader','ts-node','typescript', 'yarn-audit-html']
+

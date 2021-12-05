@@ -1,0 +1,13 @@
+{
+  "extends": ["@tmap"],
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  }
+}

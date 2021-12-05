@@ -1,0 +1,26 @@
+# package directories
+/node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# Reports
+coverage
+.nyc_output
+tests/reports
+*.log
+load-*.json
+.idea
+*.swp
+test/load/data/
+.vscode
+.DS_Storevi 
+.idea
+tags
+.tags*
+.build
+tmp
+.webpack
+ormconfig.json
+sdk/dist/

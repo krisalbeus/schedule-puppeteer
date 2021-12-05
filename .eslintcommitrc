@@ -1,0 +1,7 @@
+{
+  "extends": [".eslintrc"],
+  "plugins": ["tsc"],
+  "rules": {
+    "tsc/config": [ "error", { configFile: "tsconfig.json" } ]
+  }
+}

@@ -1,0 +1,8 @@
+  {
+    "*.{js,css,json,md,ts,yml}": [
+      "prettier --write"
+    ],
+    "!(sdk)/**/*.ts": [
+      "eslint --fix --config .eslintcommitrc"
+    ]
+  }

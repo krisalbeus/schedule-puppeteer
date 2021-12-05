@@ -1,0 +1,22 @@
+{
+  "extends": "@istanbuljs/nyc-config-typescript",
+  "all": true,
+  "include": [
+    "src/**/*.ts"
+  ],
+  "lines": 85,
+  "statements": 85,
+  "functions": 85,
+  "branches": 85,
+  "watermarks": {
+    "lines": [85, 90],
+    "functions": [85, 90],
+    "branches": [85, 90],
+    "statements": [85, 90]
+  },
+  "reporter": [
+    "html",
+    "text-summary"
+  ],
+  "report-dir": "tests/reports/Coverage"
+}
